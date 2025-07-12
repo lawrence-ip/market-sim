@@ -1,0 +1,10 @@
+[package]
+name = "market-sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4", "serde"] }
+serde = { version = "1.0", features = ["derive"] }
+ordered-float = { version = "4.0", features = ["serde"] }
